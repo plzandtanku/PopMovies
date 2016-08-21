@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PopMovies</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+
+    <string name="hello_world">Hwtfi!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_poster_detail">PosterDetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="trailer_button">Play Trailer</string>
+
+
+    <!-- Preferences -->
+    <string name="pref_sortby" translatable="false">Sort By</string>
+    <string name="pref_sort_key" translatable="false">sort type</string>
+    <string name="pref_sort_type_popular" translatable="false">Popularity</string>
+    <string name="pref_sort_type_rating" translatable="false">Rating</string>
+
+    <string name="pref_favoritesonly" translatable="false">Show Only Favorited</string>
+    <string name="pref_fav_key" translatable="false">fav key</string>
+
+    <string-array name="pref_sort_options">
+        <item>@string/pref_sort_type_popular</item>
+        <item>@string/pref_sort_type_rating</item>
+    </string-array>
+
+    <string name="favorite_movies" translatable="false">""</string>
+    <string name="preference_file_key" translatable="false">PREFERENCE_FILE_KEY</string>
+
+</resources>
